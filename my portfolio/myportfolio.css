@@ -1,0 +1,29 @@
+nav{text-align: right;
+height:150px;
+background-color: olive;}
+
+body{background-color: purple;}
+a{text-decoration: none;
+font-size:30px;
+margin-left:50px;}
+ section{text-align:center;
+font-size:28px;}
+ .welcome1{background-color: gray;
+margin-bottom:-30px ;}
+.welcome2{
+    position: relative;
+    left:200px;
+    width:70%;
+    display:flex;
+flex-direction: row;
+}
+.backcolor{background-color:orange ;}
+.welcome3{background-color: navy;}
+.figure{width:400px;
+height:350px;
+background-color: wheat;
+margin-right: 20px;
+margin-bottom:20px;}
+footer{font-size:20px;}
+i:hover{transform: scale(2.2);}
+@media(max-width:800px){.welcome2{flex-direction: column;}}

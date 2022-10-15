@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="surveyform.css">
+<title>OnlineKAYIIRA BAKERY SURVEY FORM.</title>
+</head>
+<body>
+<h1 class="these"><u>OnlineKayiira Bakery Form.</u></h1>
+<p class="these">Talk to us today about how we can improve our services to you.</p>
+<form action="">
+    <label class="align" for="name">Name </label> <br>
+<input class="fillend longerone" type="text" id="name" placeholder="fill in your NAME here" required> <br>
+<label class="align" for="email">Email</label> <br>
+<input class="fillend longerone" type="email" id="email" placeholder="fill in your EMAIL here" required> <br>
+<label class="align"  for="number">Number</label> <br>
+<input class="fillend longerone" minlength="5" maxlength="10" type="number" id="number" placeholder="fill in your NUMBER here" required> <br>
+
+<label  for="persontype" class="align">Which kind of user are you</label> <br>
+<select class="longerone" name="persontype" id="persontype">
+    <option value="baker">Fellow Baker</option>
+    <option value="learner">Learner for onlineKayiira Bakery</option>
+    <option value="customer">Customer</option>
+    <option value="client">Our business partner</option>
+</select>
+<div class="align">
+   <p>How do you find onlineKayiira Bakery</p>
+ <input id="very good" type="radio" value="very good" name="Rate" checked>
+<label for="very good">Very Good</label> <br>
+ <input id="good"  type="radio" value="good" name="Rate">
+<label for="good">Good</label> <br>
+ <input id="bad" type="radio" value="bad" name="Rate">
+<label for="bad">Bad</label> <br>
+ <input id="very bad" type="radio" value="very bad" name="Rate"> 
+ <label for="very bad">Very Bad</label>
+</div>
+
+<div class="align">
+    <p>How can we improve our baking services to you.</p>
+<input id="baking techniques studies" type="checkbox" value="baking techniques studies" name="Area to improve" checked>
+<label for="baking techniques studies">The presentation of baking techniques during online studies</label> <br>
+<input id="delivery time" type="checkbox" value="delivery time" name="Area to improve">
+<label for="delivery time">The delivery time</label> <br>
+<input id="study duration" type="checkbox" value="study duration" name="Area to improve">
+<label for="study duration">Duration of online baking studies</label> <br>
+<input id="contract flexibility" type="checkbox" value="contract flexibility" name="Area to improve">
+<label for="contract flexibility">Contracts should be flexible</label> <br>
+<input id="delivery nature" type="checkbox" value="delivery nature" name="Area to improve">
+<label for="delivery nature">Nature of delivery</label>
+</div>
+<div>
+    <p class="align">Do you have other comments and suggestions?</p>
+<textarea class="fillend longerone">Kindly enter your comments here....</textarea>
+</div>
+
+<button type="submit">Submit Your Form</button>
+</form>
+</body> 
+</html>

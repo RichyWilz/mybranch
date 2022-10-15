@@ -1,0 +1,28 @@
+body{font-size:20px;
+    background:linear-gradient(45deg,blue,purple,green);   
+}
+.these{text-align: center;}
+.align{position: relative;
+left:13%;
+width:70%;}
+.longerone{width:70%;
+position: relative;
+left:13%;}
+.fillend{
+    line-height:50px;
+    font-size:18px;
+}
+input{font-size:14px;}
+select{font-size:18px;
+height:50px;}
+form{width:70vw;
+   font-weight:10px;
+   background-color:  violet;
+   position: relative;
+    left:15%;
+    padding-top:10px;
+}
+textarea{margin-bottom:20px;}
+button{font-size:20px;
+line-height: 25px;
+width:100%}

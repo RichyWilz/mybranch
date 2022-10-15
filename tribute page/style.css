@@ -1,0 +1,20 @@
+h1{text-align:center;}
+figure{background-color: white;
+margin:0px -20px 0px -30px;}
+img{display:block;
+    margin:auto;
+    max-width: 100%;
+    height: auto;
+    }
+figcaption{text-align: center;
+margin-top: -20px;}
+body{
+    background-color:grey;
+    font-family: 'Monospace', Times, serif;
+font-size: 20px;
+}
+ul{margin:20px;}
+li{margin:20px;}
+.quotecenter{text-align: center;}
+.namecenter{text-align:center;}
+a:hover{color:black;}
